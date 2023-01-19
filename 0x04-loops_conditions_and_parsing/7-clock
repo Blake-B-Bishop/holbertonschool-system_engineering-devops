@@ -1,8 +1,15 @@
 #!/usr/bin/env bash
 # Displays some stuff
-x=12 y=59
-while [ $x -le 12 ]:[ $y -le 59 ]
+x=0
+j=1
+while [$x -le 12]
 do
-echo {1..12\n} {1..59\n}
-x=$(( $x + 1 ))
+	echo Hour: $x
+	while [$j -le 59]
+	do
+		echo Minute: $j
+		((j++))
+	done
+	((j = 1))
+	((x++))
 done
