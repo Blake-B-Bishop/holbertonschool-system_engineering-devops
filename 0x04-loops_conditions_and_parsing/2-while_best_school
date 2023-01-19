@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Displaying "Best School" 10 times using While loop
-tommyboy=1
-while [ $tommyboy -le 10];
+tommyboy=0
+while [ $tommyboy -lt 10]
 do
 echo "Best School"
 tommyboy=$((tommyboy + 1))
