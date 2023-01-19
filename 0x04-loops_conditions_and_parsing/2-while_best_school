@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Displaying "Best School" 10 times using While loop
-q=0
-while [ $q -lt 10]
+x=1
+while [ $x -le 10 ]
 do
 echo "Best School"
-q=$((q + 1))
+x=$((x + 1))
 done
