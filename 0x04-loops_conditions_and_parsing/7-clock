@@ -1,13 +1,8 @@
 #!/usr/bin/env bash
 # Displays some stuff
-minutes=1
-hours=0
-while [ $hours -le 12 ]
+x=12 y=59
+while [ $x -le 12 ]:[ $y -le 59 ]
 do
-echo "Hour: $hours"
-while [$minutes -lt 60 ]
-do 
-echo "$minutes"
-((minutes++))
+echo {1..12\n} {1..59\n}
+x=$(( $x + 1 ))
 done
-((hours++))
