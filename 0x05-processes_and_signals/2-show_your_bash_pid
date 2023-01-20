@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays lines of Bash and Stufff I think
+# shellcheck disable=SC2009
+ps afux | grep bash
