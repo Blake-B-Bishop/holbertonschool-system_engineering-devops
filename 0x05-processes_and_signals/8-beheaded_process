@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# KILL ALL TOYOTA
+pkill -f 7-highlander -SIGKILL
